@@ -1,11 +1,12 @@
 import { useState, useMemo } from 'react';
-import { articles } from '../data/articles';
+import { useArticles } from '../hooks/useArticles';
 import { SearchBar } from '../components/SearchBar';
 import { ArticleGrid } from '../components/ArticleGrid';
 import './Search.css';
 
 export function Search() {
   const [query, setQuery] = useState('');
+  const { articles, loading, error } = useArticles();
 
   const searchResults = useMemo(() => {
     if (!query.trim()) {
@@ -20,7 +21,7 @@ export function Search() {
         article.category.toLowerCase().includes(lowercaseQuery) ||
         article.author.toLowerCase().includes(lowercaseQuery)
     );
-  }, [query]);
+  }, [articles, query]);
 
   return (
     <div className="search-page">
@@ -32,8 +33,12 @@ export function Search() {
         <SearchBar onSearch={setQuery} />
       </section>
 
+      {error && <p className="error-message">Couldn’t load articles: {error}</p>}
+
       <section className="search-results">
-        {query.trim() ? (
+        {loading ? (
+          <p className="loading-message">Loading articles…</p>
+        ) : query.trim() ? (
           <>
             {searchResults.length > 0 ? (
               <>
