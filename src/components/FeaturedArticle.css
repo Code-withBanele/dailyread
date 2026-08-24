@@ -1,0 +1,138 @@
+.featured-article-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.featured-article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  margin-bottom: 4rem;
+  padding: 0;
+}
+
+.featured-article-image {
+  width: 100%;
+  overflow: hidden;
+  background-color: var(--color-light-gray);
+}
+
+.featured-article-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.featured-article:hover .featured-article-image img {
+  transform: scale(1.02);
+}
+
+.featured-article-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.featured-category {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-accent);
+  font-weight: 600;
+  margin: 0;
+}
+
+.featured-title {
+  font-family: var(--font-serif);
+  font-size: 2.75rem;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.featured-excerpt {
+  font-size: 1.125rem;
+  color: var(--color-gray);
+  line-height: 1.6;
+  margin: 0.5rem 0 0 0;
+}
+
+.featured-metadata {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+  color: var(--color-gray);
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  border-top: 1px solid var(--color-light-gray);
+  border-bottom: 1px solid var(--color-light-gray);
+  margin: 1rem 0;
+}
+
+.featured-author,
+.featured-date,
+.featured-reading-time {
+  display: flex;
+  align-items: center;
+}
+
+.featured-author::after,
+.featured-date::after {
+  content: '·';
+  margin-left: 1rem;
+}
+
+.featured-cta {
+  font-size: 1rem;
+  color: var(--color-black);
+  font-weight: 500;
+  margin-top: 1rem;
+  transition: color 0.2s ease;
+}
+
+.featured-article:hover .featured-cta {
+  color: var(--color-accent);
+}
+
+@media (max-width: 1024px) {
+  .featured-article {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .featured-title {
+    font-size: 2rem;
+  }
+
+  .featured-excerpt {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .featured-article {
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .featured-title {
+    font-size: 1.75rem;
+  }
+
+  .featured-excerpt {
+    font-size: 0.95rem;
+  }
+
+  .featured-metadata {
+    padding: 0.75rem 0;
+    gap: 0.5rem;
+  }
+
+  .featured-author::after,
+  .featured-date::after {
+    margin-left: 0.5rem;
+  }
+}
