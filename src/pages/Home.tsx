@@ -1,10 +1,12 @@
-import { articles } from '../data/articles';
+import { useArticles } from '../hooks/useArticles';
 import { FeaturedArticle } from '../components/FeaturedArticle';
 import { ArticleGrid } from '../components/ArticleGrid';
 import './Home.css';
 
 export function Home() {
-  const featuredArticle = articles.find((a) => a.featured);
+  const { articles, loading, error } = useArticles();
+
+  const featuredArticle = articles.find((a) => a.featured) ?? null;
   const latestArticles = articles.slice(0, 6);
 
   return (
@@ -15,7 +17,19 @@ export function Home() {
         </div>
       </section>
 
-      {featuredArticle && (
+      {error && (
+        <section className="featured-section">
+          <p className="error-message">Couldn’t load articles: {error}</p>
+        </section>
+      )}
+
+      {loading && (
+        <section className="featured-section">
+          <p className="loading-message">Loading articles…</p>
+        </section>
+      )}
+
+      {!loading && featuredArticle && (
         <section className="featured-section">
           <FeaturedArticle article={featuredArticle} />
         </section>

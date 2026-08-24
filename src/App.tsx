@@ -7,6 +7,7 @@ import { ArticleDetail } from './pages/ArticleDetail';
 import { Categories } from './pages/Categories';
 import { Search } from './pages/Search';
 import { About } from './pages/About';
+import { Admin } from './admin/Admin';
 import './App.css';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <Route path="/categories" element={<Categories />} />
             <Route path="/search" element={<Search />} />
             <Route path="/about" element={<About />} />
+            <Route path="/admin/*" element={<Admin />} />
           </Routes>
         </main>
         <Footer />

@@ -1,23 +1,24 @@
 import { useState, useMemo } from 'react';
-import { articles } from '../data/articles';
+import { useArticles } from '../hooks/useArticles';
 import { ArticleGrid } from '../components/ArticleGrid';
 import { CategoryFilter } from '../components/CategoryFilter';
 import './Categories.css';
 
 export function Categories() {
   const [selectedCategory, setSelectedCategory] = useState('All');
+  const { articles, loading, error } = useArticles();
 
   const categories = useMemo(() => {
     const cats = Array.from(new Set(articles.map((a) => a.category))).sort();
     return cats;
-  }, []);
+  }, [articles]);
 
   const filteredArticles = useMemo(() => {
     if (selectedCategory === 'All') {
       return articles;
     }
     return articles.filter((a) => a.category === selectedCategory);
-  }, [selectedCategory]);
+  }, [articles, selectedCategory]);
 
   const categoryDescription: Record<string, string> = {
     Culture: 'Explore stories about society, art, and human connection.',
@@ -35,6 +36,9 @@ export function Categories() {
         <h1>Categories</h1>
         <p>Explore articles by topic.</p>
       </section>
+
+      {error && <p className="error-message">Couldn’t load articles: {error}</p>}
+      {loading && <p className="loading-message">Loading articles…</p>}
 
       <section className="categories-filter">
         <CategoryFilter
