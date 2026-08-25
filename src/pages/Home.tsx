@@ -1,6 +1,7 @@
 import { articles } from '../data/articles';
 import { FeaturedArticle } from '../components/FeaturedArticle';
 import { ArticleGrid } from '../components/ArticleGrid';
+import { InArticleAd } from '../components/InArticleAd';
 import './Home.css';
 
 export function Home() {
@@ -20,6 +21,10 @@ export function Home() {
           <FeaturedArticle article={featuredArticle} />
         </section>
       )}
+
+      <section className="home-ad-section">
+        <InArticleAd />
+      </section>
 
       <section className="latest-section">
         <h2 className="section-heading">Latest Reads</h2>

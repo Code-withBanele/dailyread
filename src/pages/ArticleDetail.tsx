@@ -2,6 +2,7 @@ import { useParams, Navigate } from 'react-router-dom';
 import { articles } from '../data/articles';
 import { ArticleContent } from '../components/ArticleContent';
 import { RelatedArticles } from '../components/RelatedArticles';
+import { ShareArticle } from '../components/ShareArticle';
 import './ArticleDetail.css';
 
 export function ArticleDetail() {
@@ -37,6 +38,7 @@ export function ArticleDetail() {
             <span className="article-separator">·</span>
             <span className="article-time">{article.readingTime}</span>
           </div>
+
         </section>
 
         <div className="article-featured-image">
@@ -44,6 +46,7 @@ export function ArticleDetail() {
         </div>
 
         <ArticleContent content={article.content} />
+        <ShareArticle title={article.title} text={article.excerpt} />
       </article>
 
       <RelatedArticles articles={relatedArticles} />

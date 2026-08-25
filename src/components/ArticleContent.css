@@ -10,6 +10,11 @@
   color: var(--color-black);
 }
 
+.in-article-ad {
+  margin: 2rem 0;
+  min-height: 90px;
+}
+
 .article-h2 {
   font-family: var(--font-serif);
   font-size: 2rem;
