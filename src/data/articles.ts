@@ -2,6 +2,10 @@ import type { Article } from '../types/article';
 import { importedArticles } from './importedArticles';
 import kkpapjana from '../assets/kk.jpeg';
 import ennife from '../assets/jennifer-coffin-grey-uzhulj1gifY-unsplash.jpg';
+import kkGraduation from '../assets/articles/kk-graduation.jpg';
+import kkRedGolf from '../assets/articles/kk-red-golf.jpg';
+import kkComrades from '../assets/articles/kk-comrades.jpg';
+import kkFormalPortrait from '../assets/articles/kk-formal-portrait.png';
 
 
 export type { Article } from '../types/article';
@@ -881,7 +885,7 @@ export const seedArticles: Article[] = [
   author: "Zola Pinda",
   publishedAt: "2026-08-25",
   readingTime: "18 min read",
-  featured: false,
+  featured: true,
   image: kkpapjana,
   content: [
     "An expanded long-form op-ed and master historical manuscript, incorporating the national student movement, UDF and SATISCO/SANSCO context, Rhodes and township life, Founders Hall, and the personal recollections of comrades and friendships that formed a generation.",
@@ -918,6 +922,13 @@ export const seedArticles: Article[] = [
     {
       type: "heading2",
       value: "KK ARRIVED ALREADY FORMED",
+    },
+
+    {
+      type: "image",
+      src: kkGraduation,
+      alt: "KK Papiyana with a graduate holding a diploma",
+      caption: "A photograph from KK's university years.",
     },
 
     {
@@ -1149,6 +1160,13 @@ export const seedArticles: Article[] = [
 
     "There was a little red Golf Chico. In that car, KK and I, together with the late Bongani Gxilitshe, Lincoln Mali and the late Mzwandile Poswa — known to us as Tswai Radebe — travelled the long roads of the Eastern Cape and beyond.",
 
+    {
+      type: "image",
+      src: kkRedGolf,
+      alt: "A white Volkswagen Golf parked on a roadside",
+      caption: "The Golf that carried comrades, books and political documents between meetings.",
+    },
+
     "We went to Johannesburg for national congresses, and to Alice, Mthatha and campuses across the region where SANSCO and later SASCO branches needed support, strategic guidance or simply the presence of comrades from Rhodes.",
 
     "We were young, but we were not unaware of the risks. The country was still under apartheid rule. Activists were detained, organisations were restricted and political violence was part of the landscape.",
@@ -1267,6 +1285,13 @@ export const seedArticles: Article[] = [
 
     "Bongani Gxilitshe brought intellectual curiosity and organisational discipline to our travelling circle. Lincoln Mali moved fluently between campus, community and national structures. Mzwandile “Tswai Radebe” Poswa carried a quieter organisational reliability. Mike Koyana represented another strand of the student leadership that was negotiating the transition toward a single non-racial organisation.",
 
+    {
+      type: "image",
+      src: kkComrades,
+      alt: "Three young comrades standing together",
+      caption: "Comrades from the generation shaped by the student movement.",
+    },
+
     "There were also people whose contributions were made in less visible ways: branch organisers, residence activists, campaigners, students who drafted memoranda, those who attended late-night meetings and those who returned to their campuses carrying decisions that had been reached at national gatherings.",
 
     "That is why I resist the temptation to measure the generation only by the positions people later occupied. Political formation happens before a résumé records it.",
@@ -1355,6 +1380,13 @@ export const seedArticles: Article[] = [
     {
       type: "heading2",
       value: "ABOUT THE AUTHOR",
+    },
+
+    {
+      type: "image",
+      src: kkFormalPortrait,
+      alt: "Two men in formal dress at an indoor event",
+      caption: "A later photograph of comrades whose friendship was forged through politics.",
     },
 
     "Zola Pinda is a journalist, communications strategist and public affairs writer. He studied at Rhodes University and writes in his personal capacity on politics, governance, history and institutional memory.",
