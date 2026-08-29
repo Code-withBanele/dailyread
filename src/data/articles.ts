@@ -1313,7 +1313,7 @@ export const seedArticles: Article[] = [
     author: "Zola Pinda",
     publishedAt: "2026-08-29",
     readingTime: "8 min read",
-    featured: false,
+    featured: true,
     image: article9Cover,
     content: [
       { type: "paragraph", content: "There are moments in the life of a country when statistics cease to be statistics." },
