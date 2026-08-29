@@ -96,7 +96,12 @@ export function ArticleContent({ content }: ArticleContentProps) {
         if (block.type === 'image') {
           return (
             <figure key={index} className="article-figure">
-              <img src={block.src ?? block.value ?? ''} alt={block.alt ?? 'Article content'} />
+              <img
+                src={block.src ?? block.value ?? ''}
+                alt={block.alt ?? 'Article content'}
+                loading="lazy"
+                decoding="async"
+              />
               {block.caption && <figcaption>{block.caption}</figcaption>}
             </figure>
           );

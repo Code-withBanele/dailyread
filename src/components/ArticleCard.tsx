@@ -11,7 +11,7 @@ export function ArticleCard({ article }: ArticleCardProps) {
     <Link to={`/article/${article.slug}`} className="article-card-link">
       <article className="article-card">
         <div className="article-card-image">
-          <img src={article.image} alt={article.title} />
+          <img src={article.image} alt={article.title} width={600} height={360} loading="lazy" decoding="async" />
         </div>
         <div className="article-card-content">
           <p className="article-category">{article.category}</p>

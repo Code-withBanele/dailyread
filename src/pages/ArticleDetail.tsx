@@ -42,7 +42,7 @@ export function ArticleDetail() {
         </section>
 
         <div className="article-featured-image">
-          <img src={article.image} alt={article.title} />
+          <img src={article.image} alt={article.title} width={1200} height={700} loading="eager" decoding="async" />
         </div>
 
         <ArticleContent content={article.content} />
