@@ -884,8 +884,8 @@ export const seedArticles: Article[] = [
     "An expanded reflection on Chule “KK” Papiyana, student politics, political education, and the generation formed through Rhodes, SANSCO, the UDF tradition and the struggle against apartheid.",
   category: "Leadership & Ideas",
   author: "Zola Pinda",
-  publishedAt: "2026-01-27",
-  readingTime: "4 min read",
+  publishedAt: "2026-08-28",
+  readingTime: "8 min read",
   featured: true,
   image: kkpapjana,
   content: [

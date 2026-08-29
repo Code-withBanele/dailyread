@@ -1,7 +1,8 @@
-import { lazy, Suspense } from 'react';
+import { lazy, Suspense, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
+import { Preloader } from './components/Preloader';
 import './App.css';
 
 const Home = lazy(() => import('./pages/Home').then((module) => ({ default: module.Home })));
@@ -12,9 +13,12 @@ const Search = lazy(() => import('./pages/Search').then((module) => ({ default: 
 const About = lazy(() => import('./pages/About').then((module) => ({ default: module.About })));
 
 function App() {
+  const [appReady, setAppReady] = useState(false);
+
   return (
     <Router>
-      <div className="app">
+      {!appReady && <Preloader onReady={() => setAppReady(true)} />}
+      <div className="app" style={{ opacity: appReady ? 1 : 0 }}>
         <Navbar />
         <main className="main-content">
           <Suspense fallback={<div className="route-loading">Loading…</div>}>

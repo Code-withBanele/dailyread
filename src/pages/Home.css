@@ -28,16 +28,30 @@
   padding: 4rem 2rem 0;
 }
 
+.featured-rail {
+  display: flex;
+  gap: 2rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x proximity;
+  -webkit-overflow-scrolling: touch;
+  padding: 0 0 1rem;
+  scrollbar-width: thin;
+}
+
+.featured-rail::-webkit-scrollbar {
+  height: 8px;
+}
+
+.featured-rail::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 999px;
+}
+
 .latest-section {
   max-width: 1200px;
   margin: 0 auto;
   padding: 4rem 2rem;
-}
-
-.home-ad-section {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 2rem;
 }
 
 .section-heading {
@@ -64,12 +78,12 @@
     padding: 3rem 1.5rem 0;
   }
 
-  .latest-section {
-    padding: 3rem 1.5rem;
+  .featured-rail {
+    gap: 1.25rem;
   }
 
-  .home-ad-section {
-    padding: 1.5rem;
+  .latest-section {
+    padding: 3rem 1.5rem;
   }
 
   .section-heading {

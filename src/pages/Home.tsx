@@ -1,11 +1,10 @@
 import { articles } from '../data/articles';
 import { FeaturedArticle } from '../components/FeaturedArticle';
 import { ArticleGrid } from '../components/ArticleGrid';
-import { InArticleAd } from '../components/InArticleAd';
 import './Home.css';
 
 export function Home() {
-  const featuredArticle = articles.find((a) => a.featured);
+  const featuredArticles = articles.filter((article) => article.featured);
   const latestArticles = articles.slice(0, 6);
 
   return (
@@ -16,15 +15,15 @@ export function Home() {
         </div>
       </section>
 
-      {featuredArticle && (
-        <section className="featured-section">
-          <FeaturedArticle article={featuredArticle} />
+      {featuredArticles.length > 0 && (
+        <section className="featured-section" aria-label="Featured articles">
+          <div className="featured-rail">
+            {featuredArticles.map((article) => (
+              <FeaturedArticle key={article.id} article={article} />
+            ))}
+          </div>
         </section>
       )}
-
-      <section className="home-ad-section">
-        <InArticleAd />
-      </section>
 
       <section className="latest-section">
         <h2 className="section-heading">Latest Reads</h2>

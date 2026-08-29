@@ -1,6 +1,5 @@
 import './ArticleContent.css';
 import type { ArticleBlock } from '../types/article';
-import { InArticleAd } from './InArticleAd';
 
 interface ArticleContentProps {
   content: (string | ArticleBlock)[];
@@ -12,12 +11,9 @@ export function ArticleContent({ content }: ArticleContentProps) {
       {content.map((block, index) => {
         if (typeof block === 'string') {
           return (
-            <>
-            <p className="article-paragraph">
+            <p key={index} className="article-paragraph">
               {block}
             </p>
-            {index === 1 && <InArticleAd />}
-            </>
           );
         }
 
@@ -47,10 +43,7 @@ export function ArticleContent({ content }: ArticleContentProps) {
 
         if (block.type === 'paragraph') {
           return (
-            <>
-              <p className="article-paragraph">{block.content}</p>
-              {index === 1 && <InArticleAd />}
-            </>
+            <p key={index} className="article-paragraph">{block.content}</p>
           );
         }
 

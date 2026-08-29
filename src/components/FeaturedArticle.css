@@ -2,6 +2,8 @@
   text-decoration: none;
   color: inherit;
   display: block;
+  flex: 0 0 min(82vw, 980px);
+  scroll-snap-align: start;
 }
 
 .featured-article {
@@ -9,8 +11,8 @@
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
   align-items: center;
-  margin-bottom: 4rem;
   padding: 0;
+  min-width: 0;
 }
 
 .featured-article-image {
@@ -113,9 +115,12 @@
 }
 
 @media (max-width: 768px) {
+  .featured-article-link {
+    flex-basis: 85vw;
+  }
+
   .featured-article {
     gap: 1.5rem;
-    margin-bottom: 3rem;
   }
 
   .featured-title {
