@@ -1076,18 +1076,17 @@ export const seedArticles: Article[] = [
 
 
       { type: "heading2", value: "Zola Pinda" },
-      { type: "paragraph", content: "Zola Pinda is a Journalist | Strategist | Public - Interest Commentator." },
+      { type: "paragraph", content: "                 Zola Pinda is a Journalist | Strategist | Public - Interest Commentator." },
       { type: "image", value: Zola , alt: "Zola Pinda"},
-      { type: "paragraph", content: "Zola Pinda is a Rhodes University-trained journalist whose career has spanned journalism, public-"},
-      { type: "paragraph", content:  "sector leadership, strategic communication and institutional development. His work examines"},
-      { type: "paragraph", content:  "leadership, governance, political history, economic development and the institutions of democratic South Africa."},
+      { type: "paragraph", content: "Zola Pinda is a Rhodes University-trained journalist whose career has spanned journalism, public-sector leadership, strategic communication and institutional development."},
+      { type: "paragraph", content:  "His work examines leadership, governance, political history, economic development and the institutions of democratic South Africa."},
       { type: "paragraph", content:  "His journalism is grounded in a simple conviction: public-interest journalism must interrogate"},
       { type: "paragraph", content:  "power, recover historical context, follow consequences and ask difficult questions about the future. "},
-      { type: "paragraph", content:  "“A nation cannot correct what it refuses to examine.”"},
+      { type: "paragraph", content: "“A nation cannot correct what it refuses to examine.”"},
 
       { type: "heading2", value:  "EDITOR'S NOTE"},
 
-      { type: "paragraph", content:  " Daily Read is currently being used as a temporary online publishing platform for a developing body of long-form journalism and public-interest commentary."}, 
+      { type: "paragraph", content: "Daily Read is currently being used as a temporary online publishing platform for a developing body of long-form journalism and public-interest commentary."}, 
    
       
       { type: "heading2", value:  "EDITORIAL TRAIL"},
