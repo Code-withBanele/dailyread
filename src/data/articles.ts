@@ -1,16 +1,8 @@
 import type { Article } from '../types/article';
 import { importedArticles } from './importedArticles';
-import kkpapjana from '../assets/kk.jpeg';
 import ennife from '../assets/jennifer-coffin-grey-uzhulj1gifY-unsplash.jpg';
-import kkGraduation from '../assets/articles/kk-graduation.jpg';
-import kkRedGolf from '../assets/articles/kk-red-golf.jpg';
-import kkComrades from '../assets/articles/kk-comrades.jpg';
-import kkFormalPortrait from '../assets/articles/kk-formal-portrait.png';
-import kkRhodesPoliticalMemoryLane from '../assets/articles/kk-rhodes-political-memory-lane.jpg';
 import article9Cover from '../assets/joshua-gaunt-foB8u91Kgrc-unsplash.jpg';
-
 export type { Article } from '../types/article';
-
 export const seedArticles: Article[] = [
   // ============================================================
   // ARTICLE 1

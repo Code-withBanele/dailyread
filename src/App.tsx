@@ -1,4 +1,5 @@
 import { lazy, Suspense, useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
@@ -34,6 +35,7 @@ function App() {
           </Suspense>
         </main>
         <Footer />
+        <Analytics />
       </div>
     </Router>
   );
