@@ -1093,7 +1093,7 @@ export const seedArticles: Article[] = [
       
       { type: "paragraph", content: "The next instalment moves from the crisis of leadership to the making of leaders, examining KK's legacy, Papiyana, student politics, political education and the generation that entered democratic South Africa carrying enormous expectations."},
       { type: "paragraph", content:  "A forthcoming investigative series, “THE NPA: NDPP BY NDPP”, will examine South Africa's prosecuting authority one National Director of Public Prosecutions at a time"},
-      { type: "paragraph", content:  "What each, what changed under their tenure, the institutional and political pressures they faced, and what they left behind."},
+      { type: "paragraph", content:  "What each has changed under their tenure, the institutional and political pressures they faced, and what they left behind."},
       
       
     ]
