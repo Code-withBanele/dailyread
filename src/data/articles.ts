@@ -3,6 +3,11 @@ import { importedArticles } from './importedArticles';
 import ennife from '../assets/jennifer-coffin-grey-uzhulj1gifY-unsplash.jpg';
 import article9Cover from '../assets/joshua-gaunt-foB8u91Kgrc-unsplash.jpg';
 import Zola from '../assets/6.jpeg';
+import hero9 from '../assets/Picture1.png';
+import Image2 from '../assets/Picture2.png';
+import Image3 from '../assets/Picture3.jpg';
+import Image4 from '../assets/Picture4.png';
+import Image5 from '../assets/Picture5.png';
 export type { Article } from '../types/article';
 export const seedArticles: Article[] = [
   // ============================================================
@@ -1097,6 +1102,299 @@ export const seedArticles: Article[] = [
       
       
     ]
+  },
+  // ============================================================
+  // ARTICLE 9
+  // ============================================================
+  {
+    id: "9",
+    slug: "behind-the-media-curtain-who-is-writing-the-news",
+    title: "Behind the Media Curtain: Who is Writing the News?",
+    excerpt:
+      "Zola Pinda examines newspaper craft, academic scholarship, and the intellectual formation required to produce the journalism a constitutional democracy needs.",
+    category: "Opinion",
+    author: "Zola Pinda",
+    publishedAt: "2026-09-04",
+    readingTime: "12 min read",
+    featured: true,
+    image: hero9,
+    content: [
+      {
+        type: "heading2",
+        value: "The Question Behind the Story",
+      },
+      "There is a question South Africa's media establishment should periodically ask itself — not whether journalists can write, but what kind of intellectual and professional formation should underpin journalism in a constitutional democracy.",
+      "It is a deceptively simple question.",
+      "A competent journalist can interview, write to deadline, identify a news angle, construct a headline and produce readable copy. These are important professional skills. They are the craft of journalism.",
+      "But journalism, at its highest level, asks more.",
+      "It asks why a story matters. What structures produced the circumstances being reported? Who has power? Who does not? What evidence exists? What history explains the present? Which institution carries responsibility? What does the law require? Whose voice is absent? And, ultimately, what does the citizen need to know to make an informed judgement?",
+      "That is where newspaper craft begins to meet journalism as a discipline.",
+      "The distinction matters because South Africa does not merely need more information.",
+      "It needs better understanding.",
+
+      {
+        type: "heading2",
+        value: "The Newspaper Writer and the Demands of the Newsroom",
+      },
+      "The commercial newsroom performs an indispensable function.",
+      "It gives journalism urgency. It teaches journalists to recognise what is newsworthy, work under pressure, ask questions, find sources, verify information and produce copy within unforgiving deadlines.",
+      "There is considerable value in that apprenticeship.",
+      "But the newsroom alone cannot answer every question journalism must confront.",
+      "Why does one story receive prominence while another disappears? Why are some communities persistently visible only when something goes wrong? Why does political conflict often receive more attention than policy implementation? Why can a government announcement become news while the institutional machinery behind that announcement remains unexplained?",
+      "These are not merely questions of writing.",
+      "They are questions of power, political economy, public policy, history and democratic accountability.",
+      "This is why the journalist requires more than technical competence.",
+      "The journalist requires an intellectual framework through which the world being reported can be understood.",
+
+      {
+        type: "heading2",
+        value: "The Academic Writer: Knowledge Under Scrutiny",
+      },
+      "Academic scholarship operates according to a different discipline.",
+      "The scholar begins with a problem, engages existing knowledge, establishes a method, gathers evidence, analyses that evidence and submits conclusions to scrutiny.",
+      "The question is not simply whether an argument sounds persuasive. It is whether the evidence supports it.",
+      "Academic knowledge is therefore subjected to institutional scepticism. Research can be challenged. Methods can be questioned. Conclusions can be contested. Arguments can be revised.",
+      "That process is not an inconvenience. It is the discipline that makes knowledge credible.",
+      "Journalism operates differently because it must communicate rapidly and accessibly to the public. But the underlying intellectual principle remains valuable.",
+      "The journalist must continually ask: How do I know this? What is the evidence? What is missing? What would change my conclusion?",
+      "The academic must survive the scrutiny of peers. The journalist must survive the scrutiny of facts. Both ultimately answer to society.",
+
+      {
+        type: "heading2",
+        value: "The Rhodes Tradition: Thinking Beyond the Story",
+      },
+      {
+        type: "image",
+        value: Image2,
+        caption: "Rhodes University's Africa Media Matrix, the purpose-built environment in which journalism practice is placed alongside critical inquiry into media, society, democracy, ethics and power.",
+      },
+      "This is where the Rhodes University School of Journalism and Media Studies becomes relevant to the larger argument.",
+      "Rhodes has long treated journalism as more than technical production. Its journalism education combines practice with critical reflection and intellectual inquiry, asking students to consider the relationship between media, society, democracy, development, law, ethics and power.",
+      "This distinction is important.",
+      "The journalist is not merely being trained to produce a newspaper article. The journalist is being trained to understand the environment in which that article acquires meaning.",
+      "The Rhodes tradition therefore provides a useful distinction for the present moment.",
+      "Newspaper craft teaches one how to tell the story. Journalism as a discipline teaches one how to understand the world behind the story.",
+      "South Africa needs both. But it should never confuse them.",
+
+      {
+        type: "heading2",
+        value: "From Peddie to Rhodes: When Knowledge Returns Home",
+      },
+      "There is perhaps no better way of understanding this intellectual tradition than through the relationship between scholarship and place.",
+      "Dr Cecil Wele Manona, who grew up in the Peddie area, became a Rhodes University anthropologist and researcher whose work remained deeply connected to the realities of the Eastern Cape.",
+      "His scholarship engaged communities, land, education, migration, family life and the restricted opportunities available to black South Africans under apartheid.",
+      "That orientation matters.",
+      "Manona's scholarship was not detached from the society he studied. He was interested in communities not as abstract objects of academic observation, but as places in which history, economics, politics and human experience came together.",
+      "He understood that to study a community seriously was to take its people seriously. And that principle has implications far beyond anthropology.",
+
+      {
+        type: "heading2",
+        value: "Siyabulela: The Inquiry Continues",
+      },
+      {
+        type: "image",
+        value: Image3,
+        caption: "Siyabulela Sobantu Manona at a Rhodes University academic ceremony, pictured alongside former Rhodes University Chancellor and former President of the Supreme Court of Appeal, Justice Lex Mpati.",
+      },
+      "Siyabulela Sobantu Manona represents a contemporary continuation of that tradition of serious inquiry, although his own work belongs to a different historical and intellectual moment.",
+      "His academic path has included study at Rhodes University, the University of Fort Hare and the University of the Western Cape, followed by doctoral research at Rhodes.",
+      "His doctoral work examined the role of open government data in repurposing South Africa's land-administration system.",
+      "The subject itself tells us something. Land in South Africa is never simply about land. It is about history. It is about ownership. It is about administration. It is about livelihoods. It is about power. It is about whether democratic institutions have succeeded in transforming systems inherited from apartheid.",
+      "Manona's research approached precisely that institutional dimension, examining the relationship between land administration, inequality and the capacity of government systems to support meaningful transformation.",
+      "His subsequent work has continued to engage questions of land governance, rural livelihoods, environmental governance and the systems through which natural resources are administered.",
+      "The significance is not that a son has simply followed a father's profession. It is more subtle than that. It is that questions which emerge from communities can travel across generations and be reformulated for new historical circumstances.",
+      "The questions change. The responsibility to investigate them does not.",
+
+      {
+        type: "heading2",
+        value: "The Academic's Diagnosis, The Journalist's Duty",
+      },
+      "This is where scholarship and journalism meet — not because they are the same activity, but because both depend upon disciplined inquiry.",
+      "The academic must survive the scrutiny of peers. The journalist must survive the scrutiny of facts. Both ultimately answer to society.",
+      "Their methods, however, are different.",
+      "The scholar has time to develop a sustained body of research. The journalist often works under severe deadlines. The academic may spend years examining one problem. The journalist may have hours to establish what happened and why it matters.",
+      "Yet the difference in pace does not remove the obligation to think.",
+      "Journalism has a particular responsibility to translate complex knowledge without trivialising it.",
+      "That means asking questions that go beyond the immediate event: Who made the decision? What institution is responsible? What history produced this condition? What does the evidence show? Who benefits? Who carries the cost? What do the people affected actually say? And what does this mean beyond today's headline?",
+      "These questions are not academic decoration. They are the beginning of public understanding.",
+
+      {
+        type: "heading2",
+        value: "The 1993 Question: Media For What Purpose?",
+      },
+      "The idea is not new.",
+      "In April 1993, as South Africa stood on the threshold of political transformation, Rhodes University hosted the conference “Making the Media Work for Southern Africa's Development.”",
+      "The conference brought together media practitioners and development voices to consider the role of media in transforming societies, strengthening media freedom and awareness, and contributing to development.",
+      "The historical importance of that conversation should not be underestimated. South Africa had not yet held its first democratic election. Yet the question was already being asked: What should media do in a changing society?",
+      "That question remains alive more than three decades later. Perhaps it is even more urgent now.",
+      "Freedom of the press is essential, but freedom without intellectual seriousness can become noise. Access to information is essential, but information without context can leave citizens confused. Opinion is legitimate, but opinion cannot substitute for evidence. And criticism is necessary, but criticism that does not explain the institutional problem can leave the citizen angry without making the citizen wise.",
+
+      {
+        type: "heading2",
+        value: "When Rhodes Recognises Its Journalists",
+      },
+      {
+        type: "image",
+        value: Image4,
+        caption: "Professor Sizwe Mabizela at Rhodes University's JMS50 celebrations.",
+      },
+      "The philosophy is not confined to the classroom. It is also visible in whom Rhodes chooses to honour.",
+      "During the School of Journalism and Media Studies' 50th-anniversary celebrations, Professor Sizwe Mabizela presented awards recognising distinguished alumni and their contributions to journalism and the broader media landscape.",
+      "The symbolism matters. The University was not simply celebrating successful careers. It was affirming a conception of professional excellence.",
+      "Mabizela has repeatedly emphasised the importance of free, independent and credible media in a democracy and the responsibility of media practitioners to contribute to public accountability.",
+      "A university therefore demonstrates its philosophy not only through what it teaches students, but through the kind of journalism it remembers, honours and places before the next generation as worthy of emulation.",
+      "Professional success, in this conception, is not simply visibility, employment or proximity to power. It is public contribution.",
+
+      {
+        type: "heading2",
+        value: "When Information Is Not Understanding",
+      },
+      "Modern journalism operates in an environment in which information moves almost instantaneously.",
+      "A political statement can become a headline within minutes. A court judgment can become a social-media argument before most people have read it. A government announcement can generate hundreds of stories without necessarily producing a clearer understanding of the policy itself.",
+      "The danger is not simply that journalism becomes inaccurate. The more subtle danger is that it becomes factually busy but intellectually thin.",
+      "A story can contain names, quotations, reactions and numbers and still leave the reader unable to understand the structure beneath the event.",
+      "This is where journalism needs to be more ambitious. Context is not an optional extra. History is not background decoration. Evidence is not merely something inserted into a story to establish credibility. They are the means through which an event becomes intelligible.",
+      "Journalism should not simply reproduce the world as it appears at the moment. It should help readers understand the forces shaping that world.",
+
+      {
+        type: "heading2",
+        value: "The Citizen Is Not a Spectator",
+      },
+      "Democracy requires more than citizens who receive information. It requires citizens who can evaluate information, question institutions, understand competing claims and participate meaningfully in public life.",
+      "The journalist's role is therefore not to think for the citizen. It is to make independent thought more possible.",
+      "That requires journalism that respects the intelligence of its audience. It means explaining rather than showing off, questioning without manufacturing controversy, criticism without spectacle, and scepticism without cynicism.",
+      "And it means recognising that people living in rural communities, townships and small towns are not merely subjects of stories; they are citizens with knowledge, experience and legitimate questions about the institutions governing their lives.",
+      "The story of a rural community should not have to become a national scandal before it becomes worthy of serious journalism.",
+
+      {
+        type: "heading2",
+        value: "The Eastern Cape Test: From Symptom to System",
+      },
+      "This becomes especially important in the Eastern Cape.",
+      "The province is rich in history, human talent and natural resources, yet many communities continue to experience the consequences of weak infrastructure, uneven development and institutional failure.",
+      "A serious journalist cannot simply document those failures; the journalist must investigate the machinery producing them.",
+      "When a rural road collapses, investigate governance. When a clinic lacks capacity, investigate procurement, staffing and budget. When a municipality fails, investigate the institutional chain. When an agricultural project collapses, investigate land, water, financing, governance and implementation. When young people leave rural communities, investigate the economic structures that make leaving rational.",
+      "This is journalism that moves from symptom to system. The pothole is visible; the institutional failure behind the pothole is the journalism.",
+      "That is the difference between observing power and explaining power. And explanation is one of the most valuable services journalism can provide to citizens.",
+
+      {
+        type: "heading2",
+        value: "When the Politician Arrives",
+      },
+      "There is another familiar scene: a politician arrives in a rural community with cameras, speeches, promises, food parcels, photographs and handshakes. A black SUV waits nearby. The journalist records the event, the story is published, and then the convoy leaves.",
+      "But the real journalism may begin the following week: Did the promised intervention happen? Was the budget available? Who was responsible? Were the beneficiaries identified? Was the programme implemented? What did the community receive? What changed? And what happened after the cameras left?",
+      "That is where journalism becomes accountability. The journalist does not need to insult the politician; the evidence is more powerful.",
+
+      {
+        type: "heading2",
+        value: "The Commercial Media Question",
+      },
+      "None of this requires hostility towards commercial media. Commercial journalism performs an important social function and operates within real economic constraints. News organisations have employees to pay, technology to maintain and audiences to reach.",
+      "The danger lies not in commerce itself, but in allowing commercial imperatives to become the only measure of editorial value.",
+      "If the story with the greatest public consequence is consistently displaced by the story most likely to generate immediate attention, journalism gradually changes its relationship with society. The citizen becomes a consumer, the public interest becomes audience interest, and the newsroom begins to ask not only 'Is this important?' but 'Will this perform?'",
+      "A democratic media culture must be capable of holding both questions in tension.",
+
+      {
+        type: "heading2",
+        value: "The Citizen Before the Consumer",
+      },
+      "The citizen should therefore sit at the centre of journalism — not the politician, advertiser, algorithm, journalist's ego, or news cycle.",
+      "A citizen who understands the law is harder to manipulate. A citizen who understands public finance is better able to interrogate government. A citizen who understands institutions is better able to locate responsibility. A citizen who understands history is less vulnerable to political mythology. And a citizen who has access to credible evidence is better equipped to participate meaningfully in democracy.",
+      "This is where journalism becomes part of the infrastructure of citizenship .",
+
+      {
+        type: "heading2",
+        value: "Publish Less. Think More.",
+      },
+      "There is therefore a case for reconsidering the culture of constant publication.",
+      "Not every development requires an article. Not every political statement deserves amplification. Not every controversy requires immediate interpretation.",
+      "Sometimes the most responsible journalistic decision is to wait, read, investigate, speak to more people, examine the documents, check the history, return to the community, ask the uncomfortable question again, and then publish.",
+      "The objective should not be to produce the greatest number of stories, but to produce the greatest number of useful understandings. That may mean publishing less, but thinking more.",
+
+      {
+        type: "heading2",
+        value: "Five Principles for Serious Public-Interest Journalism",
+      },
+      "A journalism committed to citizens rather than spectacle might therefore begin with five principles",
+      "1. Citizen before consumer — The reader is a citizen entitled to reliable information with which to participate in democratic life.",
+      "2. Evidence before rhetoric — Strong language cannot compensate for weak evidence.",
+      "3. Explanation before condemnation — The journalist should understand the institutional problem before passing judgement on it.",
+      "4. Fairness without false equivalence — Fairness requires giving relevant voices an opportunity to respond; it does not require pretending that every claim has equal evidential weight.",
+      "5. Education before volume — The value of journalism should ultimately be measured by whether it leaves citizens better informed and better equipped to understand their society.",
+      "These principles do not make journalism timid; they make it durable.",
+
+      {
+        type: "heading2",
+        value: "The Case for Alternative Media",
+      },
+      "This is also where the case for alternative media becomes more interesting.",
+      "Alternative media should not define itself simply by opposing mainstream media[cite: 1]. The real question is what an alternative platform contributes that is missing, underdeveloped or insufficiently sustained elsewhere.",
+      "It might be a willingness to spend longer with an issue, a greater openness to researchers and community voices, the ability to follow a story after the national news cycle has moved on, the courage to examine institutions rather than personalities, or the patience to explain a policy rather than merely report its announcement.",
+      "Alternative media has to earn its alternative status; it has to be useful.",
+
+      {
+        type: "heading2",
+        value: "This is Where PCNN Finds Its Purpose",
+      },
+      "This is the space in which the emerging PCNN philosophy finds its purpose.",
+      "It is about a demanding proposition: that communities deserve media that takes their intelligence, their history and their constitutional rights seriously.",
+      "That requires writers prepared to investigate, scholars willing to bring research into public conversation, practitioners who understand how institutions work, community voices speaking from lived experience, and citizens prepared to question what they are told[cite: 1].",
+      "The purpose is to make the invisible visible, the complicated understandable and the important difficult to ignore[cite: 1].",
+
+      {
+        type: "heading2",
+        value: "Knowledge Must Return to Society",
+      },
+      "Scholarship begins with inquiry, but inquiry has a social life beyond the institution in which it is produced.",
+      "Research can influence policy, policy can affect communities, and community experience can challenge research and policy. Journalism can connect these worlds.",
+      "The strongest public-interest journalism does not tell citizens what conclusion they must reach; it gives them enough evidence, context and competing perspectives to reach better conclusions themselves[cite: 1].",
+      "The scholar investigates reality. The journalist interrogates and translates it. The community gives it meaning. The citizen acts upon what becomes known. Knowledge that enters public life becomes a democratic resource.",
+
+      {
+        type: "heading2",
+        value: "When Law, Knowledge and Public Responsibility Meet",
+      },
+     
+      "Universities do not exist outside the constitutional order, nor does journalism. The rule of law, academic freedom, freedom of expression, human dignity, equality and public accountability provide the wider democratic environment in which knowledge acquires public meaning.",
+      "Figures such as Justice Lex Mpati represent this principle: education acquires its greatest significance when knowledge is placed in the service of institutions and society.",
+      "Scholarship asks difficult questions, law establishes principles, journalism interrogates institutions, communities experience consequences, and citizens make judgements. A democratic society needs all of these relationships to function.",
+      {
+        type: "image",
+        value: Image5,
+        caption: "The Constitutional Court of South Africa: a visual reminder that journalism ultimately operates within a constitutional democracy whose citizens require knowledge to exercise their rights and responsibilities.",
+      }, 
+
+      {
+        type: "heading2",
+        value: "The Media Curtain",
+      },
+      "We began with a woman looking through a curtain. She is, ultimately, the reader[cite: 1]. The stage is what journalism places before us, but behind every story is another story: institutions, budgets, laws, histories, competing interests, assumptions and evidence.",
+      "The serious reader must learn to look beyond the performance, and the serious journalist must help the reader do precisely that.",
+      "Journalism is a form of public reasoning — an instrument through which citizens can interrogate power, understand institutions, recover history and imagine alternatives.",
+      "The journalist's responsibility is to make the country intelligible to its citizens[cite: 1]. That requires humility, evidence, intellectual curiosity, time, and the courage to look beyond what is immediately visible.",
+      "The curtain is an invitation to look behind it. The deeper question is: What kind of citizen is that journalism helping to create?",
+
+      {
+        type: "heading2",
+        value: "FINAL FOOD FOR THOUGHT",},
+
+        
+      "Perhaps, then, the real test of journalism is not how loudly it speaks, how quickly it publishes or how many people it reaches, but what remains with the citizen when the headline has disappeared. Does the reader merely know what happened — or understand the forces that made it happen, the institutions responsible, the history that shaped it and the possibilities for changing it? If journalism is one of democracy's instruments for making power visible, then its highest duty is to make citizens capable of seeing beyond the visible. The curtain may conceal the stage, but it is the reader who must ultimately decide whether to remain in the audience — or step forward and help shape the country being performed before them.",
+
+
+      {
+        type: "heading2",
+        value: "ABOUT THE AUTHOR",
+      },
+
+      {
+        type: "image",
+        value: Zola,
+        alt: "Zola Pinda",
+      },
+      "Zola Pinda is a South African journalist, Executive Principal, communications strategist and public-affairs writer with more than 20 years’ leadership experience across the South African justice system, government and institutional development. His professional work has included public administration, strategic communication, international relations, stakeholder engagement, institutional positioning and international business development. He has worked in senior government and public-sector environments, including roles involving national policy, government communication and international engagement. He holds a BA in Journalism from Rhodes University and an MA in Professional and Business Communication from La Salle University, Philadelphia. He writes on journalism, governance, politics, geopolitics, public institutions, history and development.",
+
+    ],
   },
 
 
