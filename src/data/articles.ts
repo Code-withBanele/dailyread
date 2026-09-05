@@ -1334,12 +1334,12 @@ export const seedArticles: Article[] = [
 
       {
         type: "heading2",
-        value: "This is Where PCNN Finds Its Purpose",
+        value: "This is Where AINN Finds Its Purpose",
       },
-      "This is the space in which the emerging PCNN philosophy finds its purpose.",
+      "This is the space in which the emerging African Inheritence News Network philosophy finds its purpose.",
       "It is about a demanding proposition: that communities deserve media that takes their intelligence, their history and their constitutional rights seriously.",
-      "That requires writers prepared to investigate, scholars willing to bring research into public conversation, practitioners who understand how institutions work, community voices speaking from lived experience, and citizens prepared to question what they are told[cite: 1].",
-      "The purpose is to make the invisible visible, the complicated understandable and the important difficult to ignore[cite: 1].",
+      "That requires writers prepared to investigate, scholars willing to bring research into public conversation, practitioners who understand how institutions work, community voices speaking from lived experience, and citizens prepared to question what they are told.",
+      "The purpose is to make the invisible visible, the complicated understandable and the important difficult to ignore.",
 
       {
         type: "heading2",
@@ -1347,7 +1347,7 @@ export const seedArticles: Article[] = [
       },
       "Scholarship begins with inquiry, but inquiry has a social life beyond the institution in which it is produced.",
       "Research can influence policy, policy can affect communities, and community experience can challenge research and policy. Journalism can connect these worlds.",
-      "The strongest public-interest journalism does not tell citizens what conclusion they must reach; it gives them enough evidence, context and competing perspectives to reach better conclusions themselves[cite: 1].",
+      "The strongest public-interest journalism does not tell citizens what conclusion they must reach; it gives them enough evidence, context and competing perspectives to reach better conclusions themselves.",
       "The scholar investigates reality. The journalist interrogates and translates it. The community gives it meaning. The citizen acts upon what becomes known. Knowledge that enters public life becomes a democratic resource.",
 
       {
@@ -1368,10 +1368,10 @@ export const seedArticles: Article[] = [
         type: "heading2",
         value: "The Media Curtain",
       },
-      "We began with a woman looking through a curtain. She is, ultimately, the reader[cite: 1]. The stage is what journalism places before us, but behind every story is another story: institutions, budgets, laws, histories, competing interests, assumptions and evidence.",
+      "We began with a woman looking through a curtain. She is, ultimately, the reader. The stage is what journalism places before us, but behind every story is another story: institutions, budgets, laws, histories, competing interests, assumptions and evidence.",
       "The serious reader must learn to look beyond the performance, and the serious journalist must help the reader do precisely that.",
       "Journalism is a form of public reasoning — an instrument through which citizens can interrogate power, understand institutions, recover history and imagine alternatives.",
-      "The journalist's responsibility is to make the country intelligible to its citizens[cite: 1]. That requires humility, evidence, intellectual curiosity, time, and the courage to look beyond what is immediately visible.",
+      "The journalist's responsibility is to make the country intelligible to its citizens. That requires humility, evidence, intellectual curiosity, time, and the courage to look beyond what is immediately visible.",
       "The curtain is an invitation to look behind it. The deeper question is: What kind of citizen is that journalism helping to create?",
 
       {
