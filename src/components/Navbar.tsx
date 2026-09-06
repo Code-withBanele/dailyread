@@ -14,19 +14,27 @@ export function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          THE DAILY READ
+          AFRICA HERITAGE NEWS NETWORK
         </Link>
 
         <button
+          type="button"
           className="hamburger"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           aria-label="Toggle menu"
+          aria-expanded={mobileMenuOpen}
         >
           <span></span>
           <span></span>
           <span></span>
         </button>
 
+        <Link to="/search" className="search-icon desktop-search" aria-label="Search">
+          ⌕
+        </Link>
+      </div>
+
+      <div className="navbar-links-container">
         <div className={`navbar-menu ${mobileMenuOpen ? 'open' : ''}`}>
           <Link
             to="/"
@@ -56,11 +64,14 @@ export function Navbar() {
           >
             About
           </Link>
+          <Link
+            to="/search"
+            className="nav-link mobile-search"
+            onClick={() => setMobileMenuOpen(false)}
+          >
+            ⌕ Search
+          </Link>
         </div>
-
-        <Link to="/search" className="search-icon" aria-label="Search">
-          ⌕
-        </Link>
       </div>
     </nav>
   );

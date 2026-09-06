@@ -7,8 +7,8 @@ export function Footer() {
       <div className="footer-container">
         <div className="footer-content">
           <div className="footer-brand">
-            <h3>THE DAILY READ</h3>
-            <p>Read Something Worth Your Time.</p>
+            <h3>Africa Heritage News Network</h3>
+            <p></p>
           </div>
 
           <div className="footer-links">
@@ -19,7 +19,7 @@ export function Footer() {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; 2026 The Daily Read. All rights reserved.</p>
+          <p>&copy; 2026 Africa Heritage News Network. All rights reserved.</p>
         </div>
       </div>
     </footer>

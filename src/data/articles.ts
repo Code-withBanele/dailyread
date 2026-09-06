@@ -69,6 +69,28 @@ export const seedArticles: Article[] = [
       },
       "That is why the reflection that follows should be read in its proper context. My intellectual formation did not begin at university. It began much earlier, in KwaNdlambe, in the Eastern Cape, in a family and community whose knowledge was transmitted through experience, observation, memory and oral tradition.",
       "Rhodes University subsequently expanded my intellectual.",
+    
+       {
+        type: "heading2", 
+        value: "Founder & Chairman’s Note",
+      },
+  
+
+      "The Daily Read is entering a new chapter.",
+
+      "What began as a platform for long-form journalism, commentary and public-interest writing is now developing into African Inheritance News Network (AINN), a broader African media institution committed to journalism, knowledge, historical memory and the public interest.",
+
+      "This rebranding reflects a growing vision: to build a platform that does more than report the present, but also examines the forces that have shaped Africa, preserves its memory, and contributes meaningfully to how the continent understands itself and its place in the world.",
+
+      "We are grateful to every reader, contributor and supporter who has been part of The Daily Read’s journey so far. As we undertake this transition, we invite you to remain with us and become part of the AINN Reader Network.",
+
+      "The name may be changing. The commitment to serious journalism remains.",
+
+      "Zola Pinda",
+      "Founder & Chairman",
+      "African Inheritance News Network (AINN)",
+    
+    
     ],
   },
 
@@ -330,6 +352,28 @@ export const seedArticles: Article[] = [
       "Because sometimes the most important lesson about state capacity is not found in the institutions we still possess.",
 
       "It is found in the institutions we once had, the warnings we received, and the decisions we made not to listen.",
+    
+      
+       {
+        type: "heading2", 
+        value: "Founder & Chairman’s Note",
+      },
+  
+
+      "The Daily Read is entering a new chapter.",
+
+      "What began as a platform for long-form journalism, commentary and public-interest writing is now developing into African Inheritance News Network (AINN), a broader African media institution committed to journalism, knowledge, historical memory and the public interest.",
+
+      "This rebranding reflects a growing vision: to build a platform that does more than report the present, but also examines the forces that have shaped Africa, preserves its memory, and contributes meaningfully to how the continent understands itself and its place in the world.",
+
+      "We are grateful to every reader, contributor and supporter who has been part of The Daily Read’s journey so far. As we undertake this transition, we invite you to remain with us and become part of the AINN Reader Network.",
+
+      "The name may be changing. The commitment to serious journalism remains.",
+
+      "Zola Pinda",
+      "Founder & Chairman",
+      "African Inheritance News Network (AINN)",
+    
     ],
   },
 
@@ -402,6 +446,27 @@ export const seedArticles: Article[] = [
       "It requires both.",
 
       "SA’s credibility will not only be determined by the strength of its diplomacy, but by the ability of its institutions to translate diplomacy into opportunities for its people.",
+    
+       {
+        type: "heading2", 
+        value: "Founder & Chairman’s Note",
+      },
+  
+
+      "The Daily Read is entering a new chapter.",
+
+      "What began as a platform for long-form journalism, commentary and public-interest writing is now developing into African Inheritance News Network (AINN), a broader African media institution committed to journalism, knowledge, historical memory and the public interest.",
+
+      "This rebranding reflects a growing vision: to build a platform that does more than report the present, but also examines the forces that have shaped Africa, preserves its memory, and contributes meaningfully to how the continent understands itself and its place in the world.",
+
+      "We are grateful to every reader, contributor and supporter who has been part of The Daily Read’s journey so far. As we undertake this transition, we invite you to remain with us and become part of the AINN Reader Network.",
+
+      "The name may be changing. The commitment to serious journalism remains.",
+
+      "Zola Pinda",
+      "Founder & Chairman",
+      "African Inheritance News Network (AINN)",
+    
     ],
   },
 
@@ -491,6 +556,26 @@ export const seedArticles: Article[] = [
       "Black South Africans did not arrive at democracy as a tabula rasa, or clean slate. They entered the democratic era with a rich tradition of commerce, institutional organisation and capital formation.",
 
       "Under apartheid, trade was not merely an economic activity. It was a form of resistance, a mechanism of survival and, ultimately, a foundation upon which modern South African enterprise was built.",
+    
+       {
+        type: "heading2", 
+        value: "Founder & Chairman’s Note",
+      },
+  
+
+      "The Daily Read is entering a new chapter.",
+
+      "What began as a platform for long-form journalism, commentary and public-interest writing is now developing into African Inheritance News Network (AINN), a broader African media institution committed to journalism, knowledge, historical memory and the public interest.",
+
+      "This rebranding reflects a growing vision: to build a platform that does more than report the present, but also examines the forces that have shaped Africa, preserves its memory, and contributes meaningfully to how the continent understands itself and its place in the world.",
+
+      "We are grateful to every reader, contributor and supporter who has been part of The Daily Read’s journey so far. As we undertake this transition, we invite you to remain with us and become part of the AINN Reader Network.",
+
+      "The name may be changing. The commitment to serious journalism remains.",
+
+      "Zola Pinda",
+      "Founder & Chairman",
+      "African Inheritance News Network (AINN)",
     ],
   },
 
@@ -695,6 +780,26 @@ export const seedArticles: Article[] = [
       "Because this is not a story of absence.",
 
       "It is a record of continuity.",
+
+       {
+        type: "heading2", 
+        value: "Founder & Chairman’s Note",
+      },
+  
+
+      "The Daily Read is entering a new chapter.",
+
+      "What began as a platform for long-form journalism, commentary and public-interest writing is now developing into African Inheritance News Network (AINN), a broader African media institution committed to journalism, knowledge, historical memory and the public interest.",
+
+      "This rebranding reflects a growing vision: to build a platform that does more than report the present, but also examines the forces that have shaped Africa, preserves its memory, and contributes meaningfully to how the continent understands itself and its place in the world.",
+
+      "We are grateful to every reader, contributor and supporter who has been part of The Daily Read’s journey so far. As we undertake this transition, we invite you to remain with us and become part of the AINN Reader Network.",
+
+      "The name may be changing. The commitment to serious journalism remains.",
+
+      "Zola Pinda",
+      "Founder & Chairman",
+      "African Inheritance News Network (AINN)",
     ],
   },
 
@@ -798,6 +903,27 @@ export const seedArticles: Article[] = [
       "Lebo M’s work endures because it is rooted in discipline, informed by history, authenticity, and guided by purpose. It is not merely performance; it is preservation.",
 
       "In safeguarding it, Lebo M does not defend himself — he defends the cultural inheritance of a nation, thereby ensuring that it remains intact, dignified, and worthy of those who will inherit it now and in generations to come.",
+
+
+       {
+        type: "heading2", 
+        value: "Founder & Chairman’s Note",
+      },
+  
+
+      "The Daily Read is entering a new chapter.",
+
+      "What began as a platform for long-form journalism, commentary and public-interest writing is now developing into African Inheritance News Network (AINN), a broader African media institution committed to journalism, knowledge, historical memory and the public interest.",
+
+      "This rebranding reflects a growing vision: to build a platform that does more than report the present, but also examines the forces that have shaped Africa, preserves its memory, and contributes meaningfully to how the continent understands itself and its place in the world.",
+
+      "We are grateful to every reader, contributor and supporter who has been part of The Daily Read’s journey so far. As we undertake this transition, we invite you to remain with us and become part of the AINN Reader Network.",
+
+      "The name may be changing. The commitment to serious journalism remains.",
+
+      "Zola Pinda",
+      "Founder & Chairman",
+      "African Inheritance News Network (AINN)",
     ],
   },
 
@@ -872,6 +998,26 @@ export const seedArticles: Article[] = [
       "It accrues to those who understand, adapt and negotiate within the structural realities of a multipolar world.",
 
       "Trump may launch forums, gestures, and headlines, but the real work of shaping outcomes is now being done elsewhere — quietly, deliberately and on terms that the United States cannot dictate.",
+
+       {
+        type: "heading2", 
+        value: "Founder & Chairman’s Note",
+      },
+  
+
+      "The Daily Read is entering a new chapter.",
+
+      "What began as a platform for long-form journalism, commentary and public-interest writing is now developing into African Inheritance News Network (AINN), a broader African media institution committed to journalism, knowledge, historical memory and the public interest.",
+
+      "This rebranding reflects a growing vision: to build a platform that does more than report the present, but also examines the forces that have shaped Africa, preserves its memory, and contributes meaningfully to how the continent understands itself and its place in the world.",
+
+      "We are grateful to every reader, contributor and supporter who has been part of The Daily Read’s journey so far. As we undertake this transition, we invite you to remain with us and become part of the AINN Reader Network.",
+
+      "The name may be changing. The commitment to serious journalism remains.",
+
+      "Zola Pinda",
+      "Founder & Chairman",
+      "African Inheritance News Network (AINN)",
     ],
   },
 
@@ -1089,10 +1235,7 @@ export const seedArticles: Article[] = [
       { type: "paragraph", content:  "power, recover historical context, follow consequences and ask difficult questions about the future. "},
       { type: "paragraph", content: "“A nation cannot correct what it refuses to examine.”"},
 
-      { type: "heading2", value:  "EDITOR'S NOTE"},
-
-      { type: "paragraph", content: "Daily Read is currently being used as a temporary online publishing platform for a developing body of long-form journalism and public-interest commentary."}, 
-   
+     
       
       { type: "heading2", value:  "EDITORIAL TRAIL"},
       
@@ -1100,7 +1243,25 @@ export const seedArticles: Article[] = [
       { type: "paragraph", content:  "A forthcoming investigative series, “THE NPA: NDPP BY NDPP”, will examine South Africa's prosecuting authority one National Director of Public Prosecutions at a time"},
       { type: "paragraph", content:  "What each has changed under their tenure, the institutional and political pressures they faced, and what they left behind."},
       
-      
+       {
+        type: "heading2", 
+        value: "Founder & Chairman’s Note",
+      },
+  
+
+      "The Daily Read is entering a new chapter.",
+
+      "What began as a platform for long-form journalism, commentary and public-interest writing is now developing into African Inheritance News Network (AINN), a broader African media institution committed to journalism, knowledge, historical memory and the public interest.",
+
+      "This rebranding reflects a growing vision: to build a platform that does more than report the present, but also examines the forces that have shaped Africa, preserves its memory, and contributes meaningfully to how the continent understands itself and its place in the world.",
+
+      "We are grateful to every reader, contributor and supporter who has been part of The Daily Read’s journey so far. As we undertake this transition, we invite you to remain with us and become part of the AINN Reader Network.",
+
+      "The name may be changing. The commitment to serious journalism remains.",
+
+      "Zola Pinda",
+      "Founder & Chairman",
+      "African Inheritance News Network (AINN)",
     ]
   },
   // ============================================================
@@ -1393,6 +1554,26 @@ export const seedArticles: Article[] = [
         alt: "Zola Pinda",
       },
       "Zola Pinda is a South African journalist, Executive Principal, communications strategist and public-affairs writer with more than 20 years’ leadership experience across the South African justice system, government and institutional development. His professional work has included public administration, strategic communication, international relations, stakeholder engagement, institutional positioning and international business development. He has worked in senior government and public-sector environments, including roles involving national policy, government communication and international engagement. He holds a BA in Journalism from Rhodes University and an MA in Professional and Business Communication from La Salle University, Philadelphia. He writes on journalism, governance, politics, geopolitics, public institutions, history and development.",
+
+      {
+        type: "heading2", 
+        value: "Founder & Chairman’s Note",
+      },
+  
+
+      "The Daily Read is entering a new chapter.",
+
+      "What began as a platform for long-form journalism, commentary and public-interest writing is now developing into African Inheritance News Network (AINN), a broader African media institution committed to journalism, knowledge, historical memory and the public interest.",
+
+      "This rebranding reflects a growing vision: to build a platform that does more than report the present, but also examines the forces that have shaped Africa, preserves its memory, and contributes meaningfully to how the continent understands itself and its place in the world.",
+
+      "We are grateful to every reader, contributor and supporter who has been part of The Daily Read’s journey so far. As we undertake this transition, we invite you to remain with us and become part of the AINN Reader Network.",
+
+      "The name may be changing. The commitment to serious journalism remains.",
+
+      "Zola Pinda",
+      "Founder & Chairman",
+      "African Inheritance News Network (AINN)",
 
     ],
   },
