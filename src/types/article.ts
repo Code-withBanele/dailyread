@@ -18,6 +18,9 @@ export interface Article {
   readingTime: string;
   featured: boolean;
   image: string;
+  imageAlt?: string;
+  imageCaption?: string;
+  imageCredit?: string;
   originalUrl?: string;
   content: (string | ArticleBlock)[];
 }

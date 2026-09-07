@@ -1,9 +1,34 @@
-import { articles } from '../data/articles';
+import { useEffect, useState } from 'react';
+import { articles as legacyArticles } from '../data/articles';
+import { getArticles } from '../api/strapi/articles';
+import type { Article } from '../types/article';
 import { FeaturedArticle } from '../components/FeaturedArticle';
 import { ArticleGrid } from '../components/ArticleGrid';
 import './Home.css';
 
 export function Home() {
+  const [articles, setArticles] = useState<Article[]>(legacyArticles);
+
+  useEffect(() => {
+    let isMounted = true;
+
+    getArticles()
+      .then((data) => {
+        if (isMounted) {
+          setArticles(data);
+        }
+      })
+      .catch(() => {
+        if (isMounted) {
+          setArticles(legacyArticles);
+        }
+      });
+
+    return () => {
+      isMounted = false;
+    };
+  }, []);
+
   const featuredArticles = articles.filter((article) => article.featured);
   const latestArticles = articles.slice(0, 6);
 

@@ -4,25 +4,25 @@ export function About() {
   return (
     <div className="about-page">
       <section className="about-header">
-        <h1>About The Daily Read</h1>
+        <h1>About AHNN</h1>
       </section>
 
       <section className="about-content">
         <div className="about-body">
           <p>
-            The Daily Read is a place for thoughtful articles, stories, perspectives and ideas. We believe that in a world of endless content, quality matters.
+            Africa Heritage News Network is an African media, history, heritage, ideas, and public-interest platform designed to connect journalism with memory, scholarship, and contemporary affairs.
           </p>
 
           <p>
-            Every article published here is written with care—exploring ideas deeply, questioning assumptions, and sharing perspectives that matter. Whether you're interested in culture, technology, business, lifestyle, or the world around us, you'll find something worth your time.
+            We are building a publication that understands Africa not as a single story, but as many histories, communities, and futures. Our work is grounded in people, places, history, and perspectives that deserve serious attention and sustained public debate.
           </p>
 
           <p>
-            This is an independent publication dedicated to editorial excellence. We publish regularly and always with the belief that reading—really reading—is one of the most valuable things you can do with your time.
+            AHNN is intended to serve as a credible institution for public understanding—bringing together reporting, research, heritage, analysis, and intellectual reflection in ways that strengthen democratic culture and public life.
           </p>
 
           <p>
-            <strong>Read something worth your time.</strong>
+            <strong>Stories that move a continent.</strong>
           </p>
         </div>
       </section>

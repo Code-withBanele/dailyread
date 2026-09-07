@@ -47,7 +47,7 @@ export function Preloader({ onReady }: PreloaderProps) {
   return (
     <div className={`preloader${isReady ? ' preloader-hidden' : ''}`} aria-live="polite" aria-busy={!isReady}>
       <div className="preloader-inner">
-        <span className="preloader-brand">Daily Read</span>
+        <span className="preloader-brand">AHNN</span>
         <span className="preloader-line" aria-hidden="true" />
       </div>
     </div>
