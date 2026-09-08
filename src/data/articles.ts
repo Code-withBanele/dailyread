@@ -9,17 +9,7 @@ import Image2 from '../assets/Picture2.png';
 import Image3 from '../assets/Picture3.jpg';
 import Image4 from '../assets/Picture4.png';
 import Image5 from '../assets/Picture5.png';
-import manonaPortrait from '../assets/manona-welee-cecil-manona.jpg';
-import sabcBroadcastHouse from '../assets/sabc-broadcast-house.jpg';
-import sabcAucklandPark from '../assets/sabc-auckland-park.jpg';
-import ballantinesMill from '../assets/ballantines-mill-keiskammahoek.jpg';
-import glenmoreArchive from '../assets/glenmore-archival-community-record.jpg';
-import fingoVillage from '../assets/fingo-village-grahamstown-east.jpg';
-import teaWorker from '../assets/eastern-cape-tea-worker.jpg';
-import ddtJabavu from '../assets/ddt-jabavu.jpg';
-import ddtWithFather from '../assets/ddt-jabavu-with-john-tengo-jabavu.jpg';
-import zolaPinda from '../assets/zola-pinda.jpg';
-import ahnnNewsroom from '../assets/ahnn-newsroom.jpg';
+
 export const seedArticles: Article[] = [
   // ============================================================
   // ARTICLE 1
