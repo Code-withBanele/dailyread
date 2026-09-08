@@ -1589,7 +1589,7 @@ export const seedArticles: Article[] = [
     ],
   },
 
-  {
+ // {
   id: "9",
   slug: "when-scholarship-meets-journalism-the-manona-legacy-and-the-eastern-cape-tradition-of-inquiry",
   title: "WHEN SCHOLARSHIP MEETS JOURNALISM",
@@ -1660,7 +1660,7 @@ export const seedArticles: Article[] = [
     // AHNN newsroom — the contemporary editorial space from which heritage research is returned to the public.
     { type: 'image', value: ahnnNewsroom, alt: "AHNN newsroom" },
   ],
-}
+//}
 
 
 ];
