@@ -7,7 +7,7 @@
   background-position: center 42%;
   background-size: cover;
   border-bottom: 1px solid rgba(255, 255, 255, 0.22);
-  padding: 2.25rem 0 1.75rem;
+  padding: 1.15rem 0 1rem;
   margin-bottom: 1rem;
 }
 
@@ -17,22 +17,28 @@
   padding: 0 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
   position: relative;
 }
 
+.navbar-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .navbar-links-container {
   max-width: 1200px;
-  margin: 1.5rem auto 0;
+  margin: 0.5rem auto 0;
   padding: 0 2rem;
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .navbar-tagline {
   font-family: var(--font-serif);
-  font-size: 0.9rem;
+  font-size: clamp(0.72rem, 1vw, 0.88rem);
   display: block;
   font-weight: 400;
   letter-spacing: 0.05em;
@@ -42,13 +48,13 @@
 
 .navbar-logo {
   font-family: var(--font-serif);
-  font-size: 45px;
-
+  font-size: clamp(1.65rem, 2vw, 2.5rem);
   font-weight: 400;
-  letter-spacing: 1rem;
+  letter-spacing: 0.08em;
   color: var(--color-off-white);
   text-align: left;
   white-space: nowrap;
+  line-height: 1;
 }
 
 .navbar-menu {
@@ -121,29 +127,40 @@
 }
 
 @media (max-width: 768px) {
+  .navbar {
+    padding: 0.875rem 0 0.75rem;
+  }
+
   .navbar-container {
     padding: 0 1rem;
   }
 
+  .navbar-brand {
+    margin-left: 3rem;
+    max-width: calc(100% - 4.5rem);
+  }
+
   .navbar-logo {
-    max-width: calc(100% - 7rem);
-    font-size: clamp(1rem, 7vw, 1.7rem);
+    font-size: clamp(1.15rem, 7vw, 1.85rem);
     letter-spacing: 0.04em;
     line-height: 1.1;
     white-space: normal;
   }
 
   .navbar-links-container {
-    margin-top: 1rem;
+    display: none;
+    margin-top: 0.75rem;
     padding: 0;
     position: relative;
+    width: 100%;
+  }
+
+  .navbar-links-container.open {
+    display: flex;
   }
 
   .navbar-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
+    width: 100%;
     background: rgba(7, 18, 22, 0.97);
     border-bottom: 1px solid rgba(255, 255, 255, 0.22);
     flex-direction: column;
@@ -163,6 +180,7 @@
   .nav-link {
     padding: 0.75rem 1rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+    width: 100%;
   }
 
   .nav-link.active::after {
@@ -173,6 +191,7 @@
     display: flex;
     position: absolute;
     left: 1rem;
+    top: 0.4rem;
   }
 
   .desktop-search {

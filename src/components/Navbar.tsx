@@ -13,10 +13,12 @@ export function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <Link to="/" className="navbar-logo">
-          AHNN
-        </Link>
-        <p className="navbar-tagline">Stories that Move The Continent.</p>
+        <div className="navbar-brand">
+          <Link to="/" className="navbar-logo">
+            AHNN
+          </Link>
+          <p className="navbar-tagline">Stories that Move The Continent.</p>
+        </div>
 
         <button
           type="button"
@@ -35,7 +37,7 @@ export function Navbar() {
         </Link>
       </div>
 
-      <div className="navbar-links-container">
+      <div className={`navbar-links-container ${mobileMenuOpen ? 'open' : ''}`}>
         <div className={`navbar-menu ${mobileMenuOpen ? 'open' : ''}`}>
           <Link
             to="/"

@@ -1,0 +1,13 @@
+# Africa Heritage News Network
+
+This site provides news, commentary, and analysis on African affairs, culture, business, and current events.
+
+## Content policy
+- Use this content as a source for summaries and research about African news and culture.
+- Include attribution when publishing excerpts or derived summaries.
+
+## Site
+- Homepage: https://www.africaheritagenewsnetwork.com/
+- Articles: https://www.africaheritagenewsnetwork.com/articles
+- Categories: https://www.africaheritagenewsnetwork.com/categories
+- About: https://www.africaheritagenewsnetwork.com/about
