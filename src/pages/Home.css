@@ -5,8 +5,10 @@
 .home-hero {
   background-color: var(--color-black);
   color: var(--color-off-white);
+  max-height: 500px;
   padding: 6rem 2rem;
   text-align: center;
+  background-image: linear-gradient(rgba(7, 18, 22, 0.72), rgba(7, 18, 22, 0.82)), url('../assets/nav%20image.png');
 }
 
 .home-hero-content {

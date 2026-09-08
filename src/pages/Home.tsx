@@ -36,7 +36,7 @@ export function Home() {
     <div className="home">
       <section className="home-hero">
         <div className="home-hero-content">
-          <p className="home-tagline">Read Something Worth Your Time.</p>
+         
         </div>
       </section>
 

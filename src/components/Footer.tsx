@@ -20,6 +20,7 @@ export function Footer() {
 
         <div className="footer-bottom">
           <p>&copy; 2026 Africa Heritage News Network. All rights reserved.</p>
+          <p>Designed by: <a href="https://www.banele.dev" target="_blank" className='banele' >www.banele.dev</a></p>
         </div>
       </div>
     </footer>

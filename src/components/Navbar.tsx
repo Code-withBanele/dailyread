@@ -14,8 +14,9 @@ export function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          AFRICA HERITAGE NEWS NETWORK
+          AHNN
         </Link>
+        <p className="navbar-tagline">Stories that Move The Continent.</p>
 
         <button
           type="button"
